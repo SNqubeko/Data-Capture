@@ -5,7 +5,7 @@
 const {request, response} = require('express');
 const express = require('express');
 const app = express();
-
+const port = process.env.PORT||3000
 
 //setting up database
 
@@ -17,7 +17,7 @@ database.loadDatabase();
 
 //starting up port for the app
 
-app.listen(3000, ()=>console.log('Listining on port 3000'));
+app.listen(port, ()=>console.log(`Listining on port ${port}`));
 
 app.use(express.static('public')); //folder name and webpage (ensure your file is index.html)
 app.use(express.static('public/logs'));
