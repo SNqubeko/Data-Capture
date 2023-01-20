@@ -1,0 +1,24 @@
+{
+  "name": "data-capture",
+  "version": "1.0.0",
+  "description": "Capturing data from a user then upload it to a database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "database",
+    "server",
+    "node",
+    "js"
+  ],
+  "author": "Nqubeko S",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nedb": "^1.8.0",
+    "node-fetch": "^3.3.0"
+  }
+}

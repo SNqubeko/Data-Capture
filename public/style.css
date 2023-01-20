@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 80vh;
+    margin: 0;
+    background-color: cadetblue;
+
+}
+
+section{
+    background-color: snow;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+.profile-container{
+ 
+    width: 400px;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+   
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+header{
+    padding-top: 10px;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+h2{
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+   
+margin-bottom: 10px;
+}
